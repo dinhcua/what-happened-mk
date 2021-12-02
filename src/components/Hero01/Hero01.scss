@@ -1,0 +1,98 @@
+@import '../variable.scss';
+.Hero01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color: $Tomato-two;
+}
+.what-text {
+    width: 1120px;
+}
+
+.bottom-hero {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: -50px;
+    width: 1120px;
+    justify-content: space-between;
+}
+
+.top-hero {
+    margin-bottom: 50px;
+}
+.borded {
+    display: block;
+    border: 3px solid $Dark;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+.top-bot-borded {
+    display: block;
+    width: 100px;
+    border-top : 3px solid $Dark;
+    border-bottom: 3px solid $Dark;
+    padding: 10px 20px;
+    padding-right: 35px;
+    text-transform: uppercase;
+}
+
+.arrow {
+    height: 35px;
+}
+
+@media only screen and (max-width : 740px){
+    .Hero01 {
+        max-width: 740px;
+        width: 100%;  
+    }
+    .what-text{
+        width: 500px;
+    }
+    .what-text > img{
+        width: 500px;
+    }
+    .arrow {
+        height: 20px;
+        width: auto;
+    }
+    .bottom-hero {
+        margin-top: 50px;
+        width: 600px;
+        padding-left: 30px;
+        justify-content: space-between;
+    }
+    .bottom-hero > * {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+}
+//table
+@media only screen and (min-width : 740px) and (max-width : 1024px){
+    .Hero01 {
+        max-width: 1024px;
+        width: 100%;  
+    }
+    .what-text {
+        width: 700px;
+    }
+    .what-text > img{
+        width: 700px;
+    }
+    .bottom-hero {
+        margin-top: 100px;
+        width: 700px;
+        padding-left: 50px;
+        justify-content: space-between;
+    }
+    .arrow {
+        height: 20px;
+        width: auto;
+    }
+}

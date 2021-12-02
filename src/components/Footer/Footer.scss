@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+.footer{
+    width: 100%;
+    margin-top: 147px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    &-right {
+        display: flex;
+        width: 720px;
+        justify-content: space-between;
+        & p {
+            margin-top: 20px;
+        }
+    }
+}
+
+.whp p{
+    margin-top: 20px;
+}
+.info {
+    display: flex;
+    margin: 150px 90px;
+    justify-content: space-between;
+}
+.info .text {
+    width: 60%;
+}
+
+.info .icon img{
+    margin-left: 22px;
+}
+
+@media only screen and (max-width : 740px){
+    .footer {
+        max-width: 740px;
+        width: 100%; 
+        margin-top: -100px; 
+    }
+    .footer-top-right {
+        width: 500px;
+    }
+    .footer-top {
+        margin: 0 20px;
+    }
+    .info {
+        margin: 50px 20px;
+    }
+}
+//table
+@media only screen and (min-width : 740px) and (max-width : 1024px){
+    .footer {
+        max-width: 1024px;
+        width: 100%;  
+    }
+    .footer-top-right {
+        width: 500px;
+    }
+    .footer-top {
+        margin: 0 40px;
+    }
+    .info {
+        margin: 100px 40px;
+    }
+}
+

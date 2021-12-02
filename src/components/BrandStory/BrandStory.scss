@@ -1,0 +1,68 @@
+@import '../variable.scss';
+
+.BrandStory {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-color: $Cerulean;
+    &-background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 1000px;
+        background-image: url('../../asset/brand-backgrounf.png');
+        background-repeat: no-repeat;
+    }
+}
+
+.brand-content {
+    padding-top: 100px;
+}
+.brand-boxx {
+    display: flex;
+    height: 440px;
+}
+
+.box-right{
+    display: block;
+    width: 510px;
+    height: 310px;
+    background-color: $White;
+    padding: 50px;
+    border: 3px solid $Dark;
+    border-top: 30px solid $Dark;
+}
+.box-left {
+    border-top: 25px solid $Dark; 
+}
+
+@media only screen and (max-width : 740px){
+    .BrandStory {
+        max-width: 740px;
+        width: 100%;  
+        &-background {
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
+    .box-left {
+        display: none;
+    }
+}
+//table
+@media only screen and (min-width : 740px) and (max-width : 1024px){
+    .BrandStory {
+        max-width: 1024px;
+        width: 100%;
+        &-background {
+            align-items: center;
+            justify-content: flex-start;
+        }  
+    }
+    .box-left {
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+@import '../variable.scss';
+
+.Video {
+    display: flex;
+    flex-direction: column;
+    height: 1540px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../asset/video-background.png);
+}
+
+.video-contain > img{
+    width: 1250px;
+    height: auto;
+}
+.video-up {
+    margin-top: -300px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width : 740px){
+    .Video {
+        width: 100%;
+        max-width: 740px; 
+        height: 1200px;
+    }
+    .video-contain > img{
+        width: 600px;
+        height: auto;
+    }
+}
+//table
+@media only screen and (min-width : 740px) and (max-width : 1024px){
+    .Video {
+        width: 100%;
+        max-width: 1024px;
+        height: 1540px;
+    }
+    .video-contain > img{
+        width: 800px;
+        height: auto;
+    }
+}
+
+
+

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&family=Noto+Sans+KR:wght@300;400;700&display=swap');
+$max-width : 1920px;
+// colors
+$Black : #1A1A1A;
+$Black-two: #111111;
+$Black-three: #222222;
+$Black-four: #333333;
+$Dark : #1C2027;
+$Dark-brown: #110E03;
+
+$Tomato : #EA4913;
+$Tomato-two : #E84C33;
+$Tomato-three : #E0412A;
+$Bright-orange : #F96400;
+
+$Cerulean : #0565BB;
+$Bluish : #2584B3;
+$Mid-blue : #245FC5;
+$Cloudy-blue : #B1D1CF;
+
+$White : #FFFFFF;
+$White-two : #EEEEEE;
+$White-three : #F4F4F4;
+$White-four : #F1F1F1;
+
+$Kelley-green : #00833F;
+
+$Lavender : #C6B8F5;
+
+$Light-grey : #CED1C8;
+$Light-grey-two : #D8DAD7;
+$Pinkish-grey : #D4C4AB;
+$Greyish : #A9A9A9;
+
+$Sun-yellow : #FCD32A;
+* {
+    margin: 0;
+    padding: 0;
+}
+.text-style {
+    font-family: 'montserrat';
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.text-style-2 {
+    font-family: 'NotoSansCJKkr';
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+.text-style-3 {
+    font-family: 'montserrat';
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 4.5px;
+}
+
+.text-style-5 {
+    font-family: 'montserrat';
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+.text-style-6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.text-style-18 {
+    font-family: Montserrat;
+    font-weight: bolder ;
+    font-size: 171.5px;
+    line-height: 177px;
+    text-align: center;
+}
+.text-style-11 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal ;
+    font-size: 14px;
+    line-height: 30px;
+}
+.text-style-23 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold ;
+    font-size: 14px;
+    line-height: 30px;
+}
+.text-style-12 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 ;
+    font-style: italic;
+    font-size: 50px;
+    line-height: 27px;
+    text-align: center;
+}
+.text-style-14 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 ;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+.text-style-20 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 ;
+    font-size: 20px;
+    line-height: 25px;
+}
+.text-style-20-m {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal ;
+    font-size: 16px;
+    line-height: 35px;
+}
+.text-style-21 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 ;
+    font-size: 18px;
+    line-height: 35px;
+}
+.text-style-22 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 ;
+    font-size: 25px;
+    line-height: 60px;
+}
+.text-style-24 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 ;
+    font-size: 30px;
+    line-height: 50px;
+}
+.text-style-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 ;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+.text-style-19 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 ;
+    font-size: 50px;
+    line-height: 60px;
+}
+.text-style-17 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 ;
+    font-size: 30px;
+    line-height: 25px;
+}
+.text-style-8 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300 ;
+    font-size: 16px;
+    line-height: 30px;
+}
+.text-style-8-c {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300 ;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.upper-text {
+    text-transform: uppercase;
+}
+
+.brand {
+    &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-headding {
+        text-align: center;
+    }
+    &-text {
+        height: 150px;
+        width: 800px;
+    }
+
+    &-list {
+        display: flex; 
+    }
+}
+
+
+.sun-yellow {
+    color: $Sun-yellow;
+}
+
+
+
